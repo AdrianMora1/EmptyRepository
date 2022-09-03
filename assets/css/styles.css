@@ -1,0 +1,160 @@
+body {
+    background-color: #0D1117;
+    margin: 0;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+.logoEmpty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoEmpty img {
+    scale: .5;
+    margin: 0 25%;
+}
+
+header .container {
+    max-width: 100%;
+    background-color: #2B0245;
+    height: 100vh;
+}
+
+header .row {
+    height: 100%;
+}
+
+.codeImage {
+    background-image: url(../img/code_image.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.col-6 p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.solutionContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.solutionContainer img {
+    width: 60%;
+}
+
+.logoContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logoContainer img {
+    width: 30%;
+}
+
+.logoContainer p {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.contact {
+    margin-top: 20px;
+    background-color: #FFB84B;
+    animation: fadeInUp 2s ease-in-out;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.contact a {
+    color: #2B0245;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 6px 25px;
+}
+
+.contact:hover {
+    background-color: white;
+
+}
+
+.contact a:hover {
+    color: #2B0245;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.solutionContainer p {
+    animation: fadeInRight 2s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
