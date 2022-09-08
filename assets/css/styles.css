@@ -159,6 +159,13 @@ p.Color{
     animation: fadeInRight 2s ease-in-out;
 }
 
+footer{
+    max-width: auto;
+    min-height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
 @keyframes fadeInRight {
     from {
         opacity: 0;
