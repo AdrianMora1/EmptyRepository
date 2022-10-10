@@ -1,0 +1,18 @@
+@import "variables";
+@import "mixins";
+
+.btnCustom {
+@include buttonCard;
+    &:hover {
+        background-color: $hoverPrimaryColor;
+        color: $hoverSecondaryColor;
+        border-color: $secondaryColor;
+    }
+
+    
+}
+.card{
+    
+            margin-bottom: $marginCards * 2;
+    
+}

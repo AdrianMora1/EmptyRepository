@@ -1,0 +1,14 @@
+.btnCustom {
+  background-color: #FFB84B;
+  color: black;
+  border-color: black;
+}
+.btnCustom:hover {
+  background-color: rgb(255, 213, 164);
+  color: #2B0245;
+  border-color: black;
+}
+
+.card {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=styles.css.map */
